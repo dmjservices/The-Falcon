@@ -10,3 +10,5 @@ set DEST_DIR="%PATH_DSS_Repo%\The-Falcon"
 
 :: Copy only files with *.mq4 extension
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
+
+pause
